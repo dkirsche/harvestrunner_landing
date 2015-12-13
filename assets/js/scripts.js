@@ -45,7 +45,7 @@ jQuery(document).ready(function() {
     $('.counters-container').backstretch("assets/img/backgrounds/2.jpg");
     $('.our-motto-container').backstretch("assets/img/backgrounds/2.jpg");
     $('.call-to-action-container').backstretch("assets/img/backgrounds/2.jpg");
-    $('.contact-container').backstretch("assets/img/backgrounds/3.jpg");
+
 
     /*
 	    Countdown initializer
@@ -88,12 +88,13 @@ jQuery(document).ready(function() {
 	$('.subscribe form input[type="text"]').on('focus', function() {
 		$('.subscribe form').removeClass('email-error');
 	});
-	$('.subscribe form').submit(function(e) {
+	/*
+  $('.subscribe form').submit(function(e) {
 		e.preventDefault();
 	    var postdata = $('.subscribe form').serialize();
 	    $.ajax({
 	        type: 'POST',
-	        url: 'assets/subscribe.php',
+	        url: '//harvestrunner.us12.list-manage.com/subscribe/post?u=d35c7532b71d91d8703543e19&amp;id=0366c1fb16',
 	        data: postdata,
 	        dataType: 'json',
 	        success: function(json) {
@@ -112,6 +113,7 @@ jQuery(document).ready(function() {
 	        }
 	    });
 	});
+  */
 
 	/*
 	    Contact form
@@ -147,7 +149,6 @@ jQuery(document).ready(function() {
 	            if(json.emailMessage == '' && json.subjectMessage == '' && json.messageMessage == '') {
 	                $('.contact-form form').fadeOut('fast', function() {
 	                    $('.contact-form').append('<p>Thanks for contacting us! We will get back to you very soon.</p>');
-	                    $('.contact-container').backstretch("resize");
 	                });
 	            }
 	        }
