@@ -71,10 +71,10 @@ img { max-width: 100%; }
 
 .section-container-gray { background: #f8f8f8; }
 
-.section-container-full-bg, 
-.section-container-full-bg h1, 
-.section-container-full-bg h2, 
-.section-container-full-bg h3, 
+.section-container-full-bg,
+.section-container-full-bg h1,
+.section-container-full-bg h2,
+.section-container-full-bg h3,
 .section-container-full-bg h4 { color: #fff; }
 
 .section-description {
@@ -147,7 +147,7 @@ ul.navbar-nav li a:focus { background: none; color: #e89a3e; outline: 0; }
 .navbar>.container .navbar-brand { margin-left: 0; }
 
 .navbar-brand {
-	width: 113px;
+	width: 266px;
 	height: 66px;
 	background: url(../img/logo.png) left center no-repeat;
 	text-indent: -99999px;
@@ -162,7 +162,7 @@ ul.navbar-nav li a:focus { background: none; color: #e89a3e; outline: 0; }
 
 .page-title-text {
 	width: 700px;
-	margin: 0 auto;	
+	margin: 0 auto;
 	color: #fff;
 }
 
